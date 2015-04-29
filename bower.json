@@ -1,0 +1,16 @@
+{
+  "name": "tt-starter",
+  "description": "A starter project for Angular Material",
+  "version": "0.0.1",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.3.x",
+    "angular-animate": "^1.3.x",
+    "angular-aria": "^1.3.x",
+    "angular-material": "^0.9.0-rc1",
+    "angular-ui-router": "^0.2.13",
+    "lodash": "^3.7.0",
+    "moment": "^2.10.2"
+  }
+}

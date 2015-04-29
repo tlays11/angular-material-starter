@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" >
+  <head>
+    <base href="/">
+
+    <title>TT - TS Starter</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <!-- Fonts -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,700'>
+    <link rel='stylesheet' href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+
+    <!-- inject:vendor:css -->
+    <link rel="stylesheet" href="build/vendor-styles.min.css">
+    <!-- endinject -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="build/styles.css">
+    <!-- endinject -->
+    
+  </head>
+
+  <body>
+
+    <md-toolbar class="main-nav l-pinned-top l-layer-5 md-default-theme">
+      <nav>
+        <h1>
+          <a class="md-button md-default-theme" ng-transclude="" href="/" md-button="">ttstarter</a>
+        </h1>
+        <ul ng-class="showMainNav ? 'is-visible' : ''">
+          <li class="l-left">
+            <a class="main-nav-button md-button md-default-theme" ng-transclude="" href="/dash" md-button="">
+              <i class="ion-home"></i> dash
+            </a>
+          </li>
+          <li class="l-left">
+            <a class="main-nav-button md-button md-default-theme" ng-transclude="" href="/contacts" md-button="">
+              <i class="ion-person-stalker"></i> contacts
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </md-toolbar>
+    
+    <md-content> 
+      <div ui-view></div>
+    <md-content>
+
+
+    <!-- inject:vendor:js -->
+    <script src="build/vendor.min.js"></script>
+    <!-- endinject -->
+
+    <!-- inject:js -->
+    <script src="build/app.js"></script>
+    <script src="build/templates.js"></script>
+    <!-- endinject -->
+
+    <!-- inject:version -->
+    <script>var APP_VERSION = ".devBuild";</script>
+    <!-- endinject -->
+
+  </body>
+</html>
